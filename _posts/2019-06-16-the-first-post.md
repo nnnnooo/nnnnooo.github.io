@@ -11,8 +11,6 @@ excerpt: "这里可以好像写副标题"
 
 ## Markdown快速入门
 
-# Markdown 快速入门
-
 > Markdown是一种标记语言，它因为“代码简练、显示精美”而受到很多人的喜爱。在这篇文章你将初步入门Markdown。
 >  MWeb 兼容 GFM 语法，还扩展支持两种语法：画图支持（mermaid, viz, echarts, plantuml, sequence, flow）和设置图片宽度（-c, -l, -r, -w）
 
@@ -30,19 +28,16 @@ excerpt: "这里可以好像写副标题"
     ##### 五级标题
     ###### 六级标题
 ```
-
-
-![-c350](https://cdn.sspai.com/2018/07/24/e0792e683efc6e8a6193ce22bbb719b0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
-
-<center></center>
-
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+    
 ## 换行
 
-在Markdown之中我们会发现文字无法换行，始终集中在一行之中。这时如果需要换行那么该怎么办呢？
-
-在这里我们可以使用“换行标签”（`</br>`）。
-
-</br>    
+在Markdown之中我们会发现文字无法换行，始终集中在一行之中。在这里可以使用 HTML 换行标签 `</br>`。
 
 ## 分割线
 
@@ -52,29 +47,17 @@ excerpt: "这里可以好像写副标题"
     ***
     分割线
 
-</br>
-
 看
 ***
 分割线
-
-
-
-
-</br>
 
 ## 引用
 
 在我们想要引用一句话的时候，我们在Markdown中使用如下代码：
 
     > 引用话语
-
-</br>
-
+    
 > 引用的内容
-
-</br>
-
 
 ## 文字样式
 
@@ -83,8 +66,6 @@ excerpt: "这里可以好像写副标题"
     *斜体*</br>**加粗**</br>==高亮==</br>~~划线~~
 
 <center>*斜体*</br>**加粗**</br>==高亮==</br>~~划线~~</center>
-
-</br>
 
 但如果我们想修改文字大小/颜色/字体，就要用font标签，代码如下：
 
@@ -100,12 +81,7 @@ color代表字体颜色（要用16进制颜色值），size代表文字大小，
 
 <center>居中</center>
 
-</br>
-
 **Ps：center和font都是html的标签，在markdown也能用**
-
-</br>
-
 
 ## 代码高亮
 
@@ -115,9 +91,9 @@ color代表字体颜色（要用16进制颜色值），size代表文字大小，
       代码
      ```
 
-![](https://cdn.sspai.com/2018/07/24/cb9d85f24e0eceb7d37fb857d7028434.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
-
-代码
+```sh
+ls /
+```
 
 代码格式就是上面的，当然key要换成自己需要的编程语言，以下是编程语言对应的key
 
@@ -129,8 +105,6 @@ language | key
 ActionScript | actionscript
 Apache | apache
 AppleScript | applescript
-
-</br>
 
 ## 列表
 
@@ -164,8 +138,6 @@ AppleScript | applescript
 2. 列表1.1
 3. 列表1.2
 
-</br>
-
 ## 代办事项
 
 在Markdown中你可以输入你最近的代办事项，代码格式如下：
@@ -195,8 +167,7 @@ Ps：带x的代表已经完成的事项，空格的为还没有完成的事项
 ## 表格
 
 在Markdown中我们同样可以绘制表格，代码格式如下：
-
-    
+  
 ```
 大标题1|大标题2|大标题3
 ---|---|---
@@ -208,7 +179,6 @@ Ps：带x的代表已经完成的事项，空格的为还没有完成的事项
 ---|---|---
 内容1|内容2|内容3
 内容1|内容2|内容3
-
 
 ## ## LaTeX （MathJax 渲染）
 
