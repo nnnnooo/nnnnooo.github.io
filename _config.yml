@@ -1,63 +1,32 @@
-# Site
-title:              FORSTE
-bio:                'Massively'
-description:        "Massively"
-locale:             en_US
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: placeless
+email: placeless@outlook.com
+description: "question came and went, like a helicopter over head..."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://placeless.net" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
+timezone: Asia/Shanghai
+encoding: UTF-8
 
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    author:
-
-# Jekyll
-permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
+# Build settings
+markdown: kramdown
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
+  input: GFM
+
 sass:
-  sass_dir:         _sass
-  style:            compressed
+  sass_dir: _sass
+  style: compressed
 
-# Comments
-disqus_shortname:   default
-
-# Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
-
-# personal
-location:           Hangzhou, China
-phone:              
-email:              
-
-# Gems
-gems:
-  - jekyll-mentions
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-
-paginate: 6
-paginate_path: "/blog/page:num/"
-
-jekyll-mentions:
-    base_url: https://github.com
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+# paginate: 10
+# paginate_path: "/page:num/"
+#
+#
+# gems: [jekyll-paginate]
