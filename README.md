@@ -1,6 +1,6 @@
-## Demo
+## Theme
 
-[placeless.net](http://placeless.net)
+[placeless](https://github.com/placeless/placeless-jekyll-theme)
 
 
 
