@@ -7,20 +7,20 @@
 
 # Site settings
 title: minefield
-email: placeless@outlook.com
-author: "Mr. Hello"
+email:
+author: "NNNNOOO"
 logo: "./apple-touch-icon.png"
 lang: "zh-cmn-Hans"
-description: "All animals are equal, but some animals are more equal than others."
+description: "NULL"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://placeless.net" # the base hostname & protocol for your site
+url: "https://nnnnooo.github.io" # the base hostname & protocol for your site
 timezone: Asia/Shanghai
 encoding: UTF-8
 
-social:
-  name: placeless
-  links:
-    - https://twitter.com/placeless
+# social:
+#   name: placeless
+#   links:
+#     - https://twitter.com/placeless
 
 webmaster_verifications:
   google: ""
