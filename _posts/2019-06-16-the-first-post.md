@@ -4,7 +4,7 @@ title:  "Markdown快速入门"
 date:   2019-06-16
 ---
 
-![My helpful screenshot]({{ "/images/pic01.jpg"}})
+![Image]({{ "/images/pic01.jpg" }})
 
 > Markdown是一种标记语言，它因为“代码简练、显示精美”而受到很多人的喜爱。在这篇文章你将初步入门Markdown。
 >  MWeb 兼容 GFM 语法，还扩展支持两种语法：画图支持（mermaid, viz, echarts, plantuml, sequence, flow）和设置图片宽度（-c, -l, -r, -w）
