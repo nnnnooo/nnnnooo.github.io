@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title:  "Synology 安装 qBittorrent"
+title:  "macOS 安装 NodeJS"
 date:   2019-07-06
 ---
 
