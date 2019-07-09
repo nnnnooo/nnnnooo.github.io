@@ -5,6 +5,7 @@ date:   2019-07-08
 ---
 
 > [icodding愛程式 - CentOS 掛載 samba storage](http://icodding.blogspot.com/2015/09/centos-samba-storage.html)
+
 > [Mounting NAS Storage in Linux](https://cloud.ibm.com/docs/infrastructure/network-attached-storage?topic=network-attached-storage-mountNASLinux)
 
 #### 1. 安装 smbclient 和 cifs-utils
