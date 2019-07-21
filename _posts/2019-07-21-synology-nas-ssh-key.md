@@ -5,6 +5,8 @@ date:   2019-07-21
 ---
 
 > [使用密钥登陆群晖 NAS SSH](https://gblog.sherlocky.com/shi-yong-ssh-zheng-shu-deng-lu-qun-hui-nas/)
+> [SSH 小技巧](https://limboy.me/tech/2010/08/28/ssh-tips.html)
+> [设置群晖 6.1 以及 6.2 使用证书免密登录](https://soulteary.com/2018/07/20/synology-passwordless-ssh.html)
 
 ## 两个坑
 
@@ -50,3 +52,23 @@ PasswordAuthentication no
 synoservicectl --reload sshd
 synoservicectl --restart sshd
 ```
+
+## 本地配置文件
+
+配置 .ssh/config 文件
+
+
+```ini
+Host bob
+    HostName bob.example.com
+    Port 2222
+    User wdaher
+    IdentityFile ~/.ssh/nas
+```
+
+连接时，使用：
+
+```
+ssh bob
+```
+
