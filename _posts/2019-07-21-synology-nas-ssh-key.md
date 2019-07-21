@@ -5,7 +5,9 @@ date:   2019-07-21
 ---
 
 > [使用密钥登陆群晖 NAS SSH](https://gblog.sherlocky.com/shi-yong-ssh-zheng-shu-deng-lu-qun-hui-nas/)
+
 > [SSH 小技巧](https://limboy.me/tech/2010/08/28/ssh-tips.html)
+
 > [设置群晖 6.1 以及 6.2 使用证书免密登录](https://soulteary.com/2018/07/20/synology-passwordless-ssh.html)
 
 ## 两个坑
