@@ -17,23 +17,23 @@ date:   2019-07-21
 
 ## 步骤
 
-##### `ssh` 登录 NAS
+##### 1. `ssh` 登录 NAS
 
 使用 root 账户，可以直接进入到 `/var/services/homes/admin/.ssh/` 目录，方便生成密钥后管理。
 
-##### 生成密钥
+##### 2. 生成密钥
 
 ```sh
 ssh-keygen -t rsa -b 2048 -C "NASCert" -f nas
 ```
 
-##### pub 复制到 authorized_keys，直接覆盖原数据
+##### 3. pub 复制到 authorized_keys，直接覆盖原数据
 
 ```sh
 cat nas.pub > /var/services/homes/admin/.ssh/authorized_keys
 ```
 
-##### 修改 sshd 配置文件
+##### 4. 修改 sshd 配置文件
 
 ```sh
 // 开启RSA证书验证  
@@ -46,7 +46,7 @@ AuthorizedKeysFile  .ssh/authorized_keys
 PasswordAuthentication no
 ```
 
-##### 重启 sshd
+##### 5. 重启 sshd
 
 ```sh
 synoservicectl --reload sshd
@@ -56,7 +56,6 @@ synoservicectl --restart sshd
 ## 本地配置文件
 
 配置 .ssh/config 文件
-
 
 ```ini
 Host bob
