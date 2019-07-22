@@ -51,7 +51,7 @@ wget https://github.com/ronggang/transmission-web-control/raw/master/release/ins
 curl -o install-tr-control-cn.sh https://github.com/ronggang/transmission-web-control/raw/master/release/install-tr-control-cn.sh
 ```
 
-因为我的 NAS 不支持 https，同时也不支持 `--no-check-certificate` 选项，所以使用了 `curl`，同时脚本中的几处需要将 `wget` 修改为 `curl`。
+因为我的 NAS `wget` 不支持 https，同时也不支持 `--no-check-certificate` 选项，所以使用了 `curl`，同时脚本中的几处需要将 `wget` 修改为 `curl`。
 
 ---
 
