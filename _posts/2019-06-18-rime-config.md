@@ -4,29 +4,34 @@ title:  "Rime 配置"
 date:   2019-06-18
 ---
 
-1. 配置
+> [当前使用的配置从这里下载的，做了一些改动](https://github.com/cnfeat/Rime)
 
-    * 当前使用的配置从这里下载的，做了一些改动：
-    https://github.com/cnfeat/Rime
-    **发现上面参考的出处应该是：**
-    https://github.com/placeless/squirrel_config
+> [Placeless Squirrel Config](https://github.com/placeless/squirrel_config)
+   
+> [我的 Rime](https://blog.dwx.io/my-rime/)
+
+> [「鼠须管」的调教笔记](https://scomper.me/gtd/-shu-xu-guan-de-diao-jiao-bi-ji)
     
-    * 定制配置方法参考：
-    https://blog.dwx.io/my-rime/
-    https://scomper.me/gtd/-shu-xu-guan-de-diao-jiao-bi-ji
-    
-    * 官方 Rime 定制指南：
-    https://github.com/rime/home/wiki/CustomizationGuide
-    
-    * Rime 輸入方案創作：
-    https://github.com/rime/home/wiki/RimeWithSchemata
+> [官方 Rime 定制指南](https://github.com/rime/home/wiki/CustomizationGuide)
 
-1. 数据文件位置
+> [Rime 輸入方案創作](https://github.com/rime/home/wiki/RimeWithSchemata)
 
-    共享资料夹：`”/Library/Input Methods/Squirrel.app/Contents/SharedSupport/”`  
-    用户资料夹：`”~/Library/Rime/”`
+## 数据文件位置
+-------
 
-1. 用户资料夹内的文件说明
+- 共享资料夹
+
+```
+/Library/Input Methods/Squirrel.app/Contents/SharedSupport/
+```
+
+- 用户资料夹
+
+```
+~/Library/Rime/
+````
+
+## 用户资料夹内的文件说明
 
     * 〔全局设定〕 default.yaml
     * 〔发行版设定〕 weasel.yaml
