@@ -4,8 +4,6 @@ title:  "正则表达式零宽断言、贪婪与懒惰"
 date:   2019-06-21
 ---
 
-> [参考](https:/blog.51cto.com/cnn237111/749047)
-
 正则表达式的先行断言和后行断言一共有 4 种形式：
 * (?=exp) 零宽正向先行断言 (zero-width positive lookahead assertion)
 * (?!exp) 零宽负向先行断言 (zero-width negative lookahead assertion)
@@ -63,3 +61,6 @@ date:   2019-06-21
 | `{n,m}?` | 重复n到m次，但尽可能少重复 |
 | `{n,}?` | 重复n次以上，但尽可能少重复 |
 
+-------
+
+> [参考](https:/blog.51cto.com/cnn237111/749047)

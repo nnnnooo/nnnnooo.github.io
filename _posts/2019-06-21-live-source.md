@@ -9,8 +9,10 @@ date:   2019-06-21
 * [恩山iptv 信源、TV 频道、网络机顶盒频道](https://www.right.com.cn/forum/forum.php?mod=forumdisplay&fid=182&page=1&filter=author&orderby=dateline)
 * [freearhey - IPTV](https://github.com/freearhey/iptv)
 * [EvilCult - iptv-m3u-maker](https://github.com/EvilCult/iptv-m3u-maker)
+* [IPTV](https://github.com/freearhey/iptv)
+* [stream-tools：IPTV源获取，验证，播放列表管理](https://github.com/lizhiyong2000/stream-tools)
 
-## 正则筛选
+## 正则筛选域名和 IP
 
 1. 网址筛选`(?<=://).*(?<=\.)([a-z]*)(\:\d*)*(?=\/)`
 2. 网址去多余后缀`/.*$`
