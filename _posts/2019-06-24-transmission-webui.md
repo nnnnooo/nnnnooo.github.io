@@ -4,9 +4,6 @@ title:  "Transmission 修改密码和 Web UI"
 date:   2019-06-24
 ---
 
-> [我的高清之旅](http://instantmove-hdtravel.lofter.com/post/1cc1d49b_3745d48)
-> [Transmission Web Control](https://github.com/ronggang/transmission-web-control)
-
 ## 更改 Transmission 密码
 
 之前使用的默认密码，因为懒癌一直没有修改，因为安装 qBittorrent需要设置密码，所以就想起把 Tr 的登录密码也修改了。
@@ -56,3 +53,7 @@ curl -o install-tr-control-cn.sh https://github.com/ronggang/transmission-web-co
 
 因为我的 NAS 不支持 https，同时也不支持 `--no-check-certificate` 选项，所以使用了 `curl`，同时脚本中的几处需要将 `wget` 修改为 `curl`。
 
+---
+
+> [我的高清之旅](http://instantmove-hdtravel.lofter.com/post/1cc1d49b_3745d48)
+> [Transmission Web Control](https://github.com/ronggang/transmission-web-control)
