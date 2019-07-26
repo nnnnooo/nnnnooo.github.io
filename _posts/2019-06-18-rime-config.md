@@ -47,11 +47,11 @@ date:   2019-06-18
 
 ## 自用配置文件
 
-以下几个以 .custom.yaml 作为后缀的文件，意味着是以补丁的方式来实现个性化定制的，输入法后续升级不会覆盖这些文件。
+以下几个以 `.custom.yaml` 作为后缀的文件，意味着是以补丁的方式来实现个性化定制的，输入法后续升级不会覆盖这些文件。
 
-自定义的文件配置中起始部分都会有 patch: 的字段，每个配置文件中有且只需要一行这个代码段。
+自定义的文件配置中起始部分都会有 `patch:` 的字段，每个配置文件中有且只需要一行这个代码段。
  
-### 1. 自定义皮肤
+### 自定义皮肤
 
 ```ini
 # 文件：squirrel.custom.yaml
@@ -92,7 +92,7 @@ patch:
       hilited_comment_text_color: 0x9e9e9e               # 注解文字高亮
 ```
 
-### 2. 设定备选词数量，定义输入方案
+### 设定备选词数量，定义输入方案
 
 ```ini
 # 文件：default.custom.yaml
@@ -103,23 +103,18 @@ patch:
   menu/page_size: 5                     # 候选词数量
 ```
 
-### 3. 定义扩充词库、加载符号库、模糊拼音
+### 定义扩充词库、加载符号库、模糊拼音
 
 double_pinyin_flypy.custom.yaml
 
-### 4. 定义配置文件保存到 Documen 文件夹下
-
-installation.yaml
-    
-### 5. 鼠须管 Emoji 表情输入
+### 鼠须管 Emoji 表情输入
 
 来源：https://scomper.me/gtd/shu-xu-guan-de-pei-zhi-diao-zheng
 
-### 6.同步
-
-在 `installation.yaml` 文件，添加一行：
+### 同步
 
 ```
+# 文件：installation.yaml
 sync_dir: '/Users/forste/Document/ConfigurationFile/Rime'
 ```
     
