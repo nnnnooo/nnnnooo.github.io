@@ -260,7 +260,7 @@ date:   2019-07-25
 <img style="margin-left:auto; margin-right:auto; display:block;" height="200" src="https://attach.mobile01.com/attach/201901/mobile01-bc11079a6a066abc954c3b626101bade.png">
 <p style="text-align:center">全模组</p>
 
-<img style="margin-left:auto; margin-right:auto; display:block;" width="450" src="https://pic1.zhimg.com/80/7df7be7f5e0e8c9aac56b88bc05702c8_hd.jpg">
+<img style="margin-left:auto; margin-right:auto; display:block;" width="450" src="http://i.imgur.com/9MSAwaS.jpg">
 <p style="text-align:center">半模组</p>
 
 #### 连接器规格
@@ -287,7 +287,7 @@ date:   2019-07-25
 
 <img src="http://assets.coolermaster.com/products/power-supply/v-series/v550/v550-04.jpg"/>
 
-![-w327](//images//15643769549041.jpg)
+![-w327]({{ "/images/15643769549041.jpg" }})
 
 * 交流输入：指的是输入电源的电压、电流和频率。这款电源写的“115Vac~240Vac 10A 60Hz/50Hz”，意味着连接115V至240V，10A，60或50赫兹的交流电就能正常工作。
 
@@ -318,3 +318,4 @@ date:   2019-07-25
 > [装机如何选电源 酷冷至尊 V550GOLD 电源测评](https://www.bilibili.com/video/av44650398)
 
 ![-w754]({{ "/images/15643772264984.jpg" }})
+
