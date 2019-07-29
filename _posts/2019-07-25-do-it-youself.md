@@ -247,7 +247,7 @@ date:   2019-07-25
         </tr>
     </tbody>
 </table>
-- PFC：功率因素校正（模电简直是噩梦<img width="26" src="https://tu.jiuwa.net/pic/20170805/1501900474304112.png">）
+- PFC：功率因素校正（模电简直是噩梦<img width="26" src="https://tu.jiuwa.net/pic/20170805/1501900474304112.png" />）
 
 #### 模块化
 
