@@ -285,9 +285,11 @@ date:   2019-07-25
 
 > [DIY从入门到精通——电源](https://zhuanlan.zhihu.com/p/20905562)
 
+> [装机如何选电源 酷冷至尊 V550GOLD 电源测评](https://www.bilibili.com/video/av44650398)
+
 <img src="http://assets.coolermaster.com/products/power-supply/v-series/v550/v550-04.jpg"/>
 
-![-w327]({{ "/images/15643769549041.jpg" }})
+<img style="margin-left:auto; margin-right:auto; display:block;" width="330" src="https://nnnnooo.github.io/images/15643769549041.jpg"/>
 
 * 交流输入：指的是输入电源的电压、电流和频率。这款电源写的“115Vac~240Vac 10A 60Hz/50Hz”，意味着连接115V至240V，10A，60或50赫兹的交流电就能正常工作。
 
