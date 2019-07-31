@@ -260,7 +260,7 @@ date:   2019-07-25
 <img style="margin-left:auto; margin-right:auto; display:block;" height="200" src="https://attach.mobile01.com/attach/201901/mobile01-bc11079a6a066abc954c3b626101bade.png">
 <p style="text-align:center">全模组</p>
 
-<img style="margin-left:auto; margin-right:auto; display:block;" width="450" src="http://i.imgur.com/9MSAwaS.jpg">
+<img style="margin-left:auto; margin-right:auto; display:block;" height="250" src="http://i.imgur.com/9MSAwaS.jpg">
 <p style="text-align:center">半模组</p>
 
 #### 连接器规格
@@ -295,19 +295,15 @@ date:   2019-07-25
 
 * 直流输出：分为“+3.3V”、“+5V”、“+12V”、“-12V”、“+5VSB”五种，这五种输出电压分别负责不同的硬件。
 
-* “+3.3V”负责主板、内存和其他PCI设备的供电；
-
-* “+5V”负责光驱部分结构、SSD和部分USB接口的供电；
-
-* “+12V”负责CPU、显卡、硬盘、光驱马达等硬件，可以说是最重要的一路了；
-
-* “-12V”负责主板串口的供电；
-
-* “+5VSB”：Stand By，待机输出的意思，比如关机了也能充电的USB接口。这也是为什么我们拔插硬件之前必须把电源线拔掉啊，不然主板还带电的喂。虽然5V对人体没危害，但硬件一下短路就全部GG了。
-
-* 有时候“+12V”会有    * 有时候“+12V”会有两列，意味着这是一块双路+12V电源。所谓的双路+12V说的就是供电电路分两条，一路为CPU供电，一路为显卡供电的意思；而单路+12V是一条电路同时供给CPU和显卡。
-由于同时供应两个大户，所以通常不做限流设计，也就是说负载很高也不会跳（触发电路保护）。超频玩家往往需要很强的供电，如果动不动跳了就搞不了机了，所以单路+12V电源是超频玩家的最佳选择。当然，价格比较贵。
-而双路+12V就不一样了，双路电源成本低，只要不超频，供电能力也是可以的。但如果CPU或显卡其中一路负载过高，就会触发电路保护，电脑就断电了。对于普通用户来说，价格更低的双路甚至多路+12V电源是性价比较高的选择。
+    * “+3.3V”负责主板、内存和其他PCI设备的供电；
+    
+    * “+5V”负责光驱部分结构、SSD和部分USB接口的供电；
+    
+    * “+12V”负责CPU、显卡、硬盘、光驱马达等硬件，可以说是最重要的一路了；
+    
+    * “-12V”负责主板串口的供电；
+    
+    * “+5VSB”：Stand By，待机输出的意思，比如关机了也能充电的USB接口。这也是为什么我们拔插硬件之前必须把电源线拔掉啊，不然主板还带电的喂。虽然5V对人体没危害，但硬件一下短路就全部GG了。
 
 * 最大电流：各路可以输出的最大电流。
 
@@ -320,4 +316,10 @@ date:   2019-07-25
 > [装机如何选电源 酷冷至尊 V550GOLD 电源测评](https://www.bilibili.com/video/av44650398)
 
 ![-w754]({{ "/images/15643772264984.jpg" }})
+
+## NVMe 固态
+
+> [Wikipedia - M.2](https://en.wikipedia.org/wiki/M.2#References)
+
+<img src="https://en.wikipedia.org/wiki/File:SATA_Express_interface.svg"/>
 
