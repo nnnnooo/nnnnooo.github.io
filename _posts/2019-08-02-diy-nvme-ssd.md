@@ -106,8 +106,7 @@ date:   2019-08-02
 > [4K 对齐](https://zh.wikipedia.org/wiki/4K对齐)
 
 如果4K不对齐，不但会极大的降低数据写入和读取速度，还会增加固态硬盘不必要的写入次数，影响寿命。非常重要。AS SSD Benchmark、DiskGenius、分区助手可检查或纠正。
-[4K对齐选8，2048和4098扇区数有多大区别？实测告诉你-中关村在线硬件论坛​bbs.zol.com.cn![图标](//images//v2-edca20bb4856b1abff622051107697a1_180x120.jpg)](https://link.zhihu.com/?target=http%3A//bbs.zol.com.cn/diybbs/d231_815414.html)
-
+[4K对齐选8，2048和4098扇区数有多大区别？实测告诉你-中关村在线硬件论坛​bbs.zol.com.cn](http://bbs.zol.com.cn/diybbs/d231_815414.html)
 
 ##### 6. 注意事项
 
