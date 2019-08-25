@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "PT 助手"
-date:   2019-07-14
+title:  "几个基础 Python 练习"
+date:   2019-08-10
 ---
 
 - 1.编写代码，打印 1-1 亿之内的偶数
@@ -13,6 +13,7 @@ def even_maker(x):
     g = (i for i in range(1, int(x/2 + 1)))
     for i in g:
         yield i * 2
+
 
 for i in even_maker(10**9):
     print(i, ',')
@@ -49,7 +50,8 @@ def name_and_time_func(func):
         print '<function call begin>'
         func(*param)
         print '<function call end>'
-        time.sleep(1)  # 可以不加，但是不加的话看不出来时间间隔
+        # 可以不加，但是不加的话看不出来时间间隔
+        time.sleep(1)
         print '[time costs: %s]', datetime.datetime.now() - start_time
     return name_time
 
@@ -74,16 +76,16 @@ names = ['GetItem', 'getItem', 'getitem']
 
 - 5.打印列表：[1, 2, 3, 4...n]，n=20；请编写代码打印如下规律的输出：
 
-```
-        1 [1*, 2, 3, 4, 5]
-        2 [1, 2*, 3, 4, 5]
-        3 [1, 2, 3*, 4, 5]
-        4 [2, 3, 4*, 5, 6]
-        5 [3, 4, 5*, 6, 7]
-        6 [4, 5, 6*, 7, 8]
-        ...
-        20 [16, 17, 18, 19, 20*]
-```
+    ```
+            1 [1*, 2, 3, 4, 5]
+            2 [1, 2*, 3, 4, 5]
+            3 [1, 2, 3*, 4, 5]
+            4 [2, 3, 4*, 5, 6]
+            5 [3, 4, 5*, 6, 7]
+            6 [4, 5, 6*, 7, 8]
+            ...
+            20 [16, 17, 18, 19, 20*]
+    ```
 
 ```py
 def page_print(page, total=20, width=5):
@@ -124,27 +126,27 @@ for i in xrange(1, t + 1):
 
 - 6.写一个程序模拟银行排队，只有一个队伍，一个用户进入时允许插队 (进入队伍任意位置), 但要保证每次导致队伍变更，队伍中受影响的人都收到通知
 
-```sh
-Customer A line up at position 11
-Customer B: order changed to 12
-Customer C: order changed to 13
-Customer D: order changed to 14
-``` 
+    ```sh
+    Customer A line up at position 11
+    Customer B: order changed to 12
+    Customer C: order changed to 13
+    Customer D: order changed to 14
+    ``` 
 
 - 7.用户系统，存在相互关注的动作，当进入某个人的个人主页，需要展示其粉丝数，关注数，粉丝列表以及关注列表。请简要描述解决方案，包括 db 建模 / 数据层 / 业务层，以及应对高并发 / 关注取关等情况的处理逻辑。
 
 - 8.给定一些 NxN 的矩阵，对于任意的路线，定义其【和】为其线路上所有节点的数字的和，计算从左上角到右下角的路线和最小值。每条路线只能从某一点到其周围（上下左右）的点，不可斜行。 例如，
 
-```sh
-4,6
-2,8 的路线和最小值为 4-2-8 14
-```
-
-```sh
-1,2,3
-4,5,6
-7,8,9 的路线和最小值为 1-2-3-6-9 21
-```
+    ```sh
+    4,6
+    2,8 的路线和最小值为 4-2-8 14
+    ```
+    
+    ```sh
+    1,2,3
+    4,5,6
+    7,8,9 的路线和最小值为 1-2-3-6-9 21
+    ```
 
 ---
 
